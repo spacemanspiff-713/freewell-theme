@@ -1,0 +1,168 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+<div
+  class="text-with-icons {% if section.settings.alt %} index-section--alt{% endif %}"
+  data-section-id="{{ section.id }}"
+  data-section-type="text-with-icons"
+>
+  <div class="">
+    {%- if section.settings.title != blank -%}
+      <div
+        class="
+          text-with-icons__title
+          section-header"
+      >
+        <h2 class="section-header__title  text-{{ section.settings.align_text }}">{{ section.settings.title }}</h2>
+      </div>
+    {%- endif -%}
+    <div
+      class="
+        text-with-icons__blocks
+        has-{{ section.settings.desktop_columns_per_row }}-per-row"
+      data-block-count="{{ section.blocks.size }}"
+      >
+      {% for block in section.blocks %}
+        <div class="text-with-icons__block text-{{ section.settings.align_text }}" {{ block.shopify_attributes }}>
+          <div class="text-with-icons__block-title">
+            <h3>{{ block.settings.title }}</h3>
+          </div>
+          <div class="text-with-icons__block-text">
+            {{ block.settings.text }}
+          </div>
+          {% if block.settings.cta-text != blank %}
+            <div class="text-with-icons__button">
+        <a href="{{ block.settings.cta-link }}" class="btn btn--tertiary">
+          {{ block.settings.cta-text }}
+        </a>
+      </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    {%- if section.settings.button_label != blank -%}
+      <div class="text-with-icons__button">
+        <a href="{{ section.settings.button_link }}" class="btn btn--tertiary">
+          {{ section.settings.button_label }}
+        </a>
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
+{% style %}
+  #shopify-section-{{ section.id }} .icon {
+    color: {{ section.settings.icon_color }};
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Text Columns no Images",
+  "class": "index-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:common.text_with_icons.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "align_text",
+      "label": "t:common.text_with_icons.settings.align_text.label",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:common.text_with_icons.settings.align_text.options.left.label"
+        },
+        {
+          "value": "center",
+          "label": "t:common.text_with_icons.settings.align_text.options.center.label"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "desktop_columns_per_row",
+      "label": "t:common.text_with_icons.settings.desktop_columns_per_row.label",
+      "default": 3,
+      "min": 2,
+      "max": 4,
+      "step": 1
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "t:common.text_with_icons.settings.icon_color.label",
+      "default": "#000"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "t:common.text_with_icons.settings.button_label.label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:common.text_with_icons.settings.button_link.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "alt",
+      "label": "t:common.text_with_icons.settings.alt.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": "t:common.text_with_icons.blocks.column.name",
+      "settings": [
+        {
+          "type": "html",
+          "id": "title",
+          "label": "t:common.text_with_icons.blocks.column.settings.title.label",
+          "default": "Example title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:common.text_with_icons.blocks.column.settings.text.label",
+          "default": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+        },
+        {
+          "type": "html",
+          "id": "cta-text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "cta-link",
+          "label": "Button Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text Columns no Images",
+      "blocks": [
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": ["footer", "header", "custom.popups"]
+  }
+}
+{% endschema %}
+

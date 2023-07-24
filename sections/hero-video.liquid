@@ -101,7 +101,7 @@
             {%- if section.settings.subheading != blank or section.settings.link_text != blank -%}
               {%- if section.settings.subheading != blank -%}
                 <div class="hero__subtitle appear-delay{% cycle '','-2','-4','-6','-8' %}">
-                  {{ section.settings.subheading | escape }}
+                  {{ section.settings.subheading }}
                 </div>
               {%- endif -%}
               {%- if section.settings.link_text != blank -%}
@@ -155,7 +155,7 @@
       "unit": "px"
     },
     {
-      "type": "text",
+      "type": "html",
       "id": "subheading",
       "label": "t:sections.hero-video.settings.subheading.label",
       "default": "Seamless auto-playing hero videos"

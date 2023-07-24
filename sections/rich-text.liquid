@@ -4,7 +4,7 @@
       <div class="theme-block" {{ block.shopify_attributes }}>
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <h2>{{ block.settings.title | escape }}</h2>
+            <h2>{{ block.settings.title }}</h2>
           {%- when 'page' -%}
             <div class="rte">
               {%- if block.settings.page_text != blank -%}
@@ -77,7 +77,7 @@
       "name": "t:sections.rich-text.blocks.heading.name",
       "settings": [
         {
-          "type": "text",
+          "type": "html",
           "id": "title",
           "label": "t:sections.rich-text.blocks.heading.settings.title.label",
           "default": "Rich text"
@@ -95,7 +95,7 @@
         },
         {
           "id": "text",
-          "type": "richtext",
+          "type": "html",
           "label": "t:sections.rich-text.blocks.text.settings.text.label",
           "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
         }
@@ -111,7 +111,7 @@
           "label": "t:sections.rich-text.blocks.button.settings.link.label"
         },
         {
-          "type": "text",
+          "type": "html",
           "id": "link_text",
           "label": "t:sections.rich-text.blocks.button.settings.link_text.label",
           "default": "Button"

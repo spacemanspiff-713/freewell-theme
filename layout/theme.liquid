@@ -74,6 +74,7 @@
   {%- render 'css-variables' -%}
   {%- render 'critical-css' -%}
   {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
+  {{ 'custom.css' | asset_url | stylesheet_tag: preload:true }}
 
   {%- if shop.enabled_currencies.size > 1 -%}
     <link rel="stylesheet" href="{{ 'country-flags.css' | asset_url | split: '?' | first }}">
