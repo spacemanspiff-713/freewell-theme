@@ -72,21 +72,21 @@
         "template--16137052684454__869737d2-d9f9-4df2-a3b0-4011de9e2dc0-1689447627205df878-0": {
           "type": "heading",
           "settings": {
-            "title": "Powerful Results"
+            "title": "<span class=\"raleway large-text\">Powerful Results<\/span>"
           }
         },
         "template--16137052684454__869737d2-d9f9-4df2-a3b0-4011de9e2dc0-1689447627205df878-1": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Designed for all hair textures and genders.<\/p>"
+            "text": "<p class=\"brand-gold\">Designed for all hair textures and genders.<\/p>"
           }
         },
         "722881fa-de27-4c4d-b8af-cd139d455295": {
           "type": "button",
           "settings": {
             "link": "shopify:\/\/collections\/all-products",
-            "link_text": "SHOP NOW"
+            "link_text": "SHOP NOW ➡️"
           }
         }
       },
@@ -152,7 +152,7 @@
         "image2_mask": "none",
         "subtitle": "",
         "title": "<span class=\"large-text raleway\">Lean + Clean<\/span>",
-        "text": "<span class=\"brand-gold large-text raleway\">Power in Ethical Minimalism<\/span><p>We source only the cleanest, purest sustainably<br\/>farmed ingredients because we know less is more:<br\/>no fillers, preservatives, sulfates, chemicals, artificial<br\/>scents, or toxins. These are standard practices in our<br\/>book. We take it one step further in keeping our<br\/>formulas simple and powerful to let the ingredients<br\/>really shine.<\/p><p><\/p><span class=\"brand-gold large-text raleway\">Sustainability on a whole new level.<\/span><\/p><p>One bottle for life is our motto. We will be launching<br\/>our refill system in 2023 and have a full line of<br\/>personal care performance products in R&D.<\/p>",
+        "text": "<span class=\"brand-gold large-text raleway\">Power in Ethical Minimalism<\/span><p class=\"raleway\">We source only the cleanest, purest sustainably farmed ingredients because we know less is more: no fillers, preservatives, sulfates, chemicals, artificial scents, or toxins. These are standard practices in our book. We take it one step further in keeping our formulas simple and powerful to let the ingredients really shine.<\/p><\/p><span class=\"brand-gold large-text raleway\">Sustainability on a whole new level.<\/span><\/p><p class=\"raleway\">One bottle for life is our motto. We will be launching<br\/>our refill system in 2023 and have a full line of<br\/>personal care performance products in R&D.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
