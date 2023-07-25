@@ -177,7 +177,7 @@
         "template--16137052684454__7f122be3-250d-445d-825e-05c63cde9fcf-text-1": {
           "type": "text",
           "settings": {
-            "enlarge_text": false,
+            "enlarge_text": true,
             "text": "<p>TOXINS + PARABENS + FILLERS + ENDOCRINE DISRUPTORS + DYES + ARTIFICIAL FRAGRANCES<\/p>"
           }
         }
