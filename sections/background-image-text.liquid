@@ -45,7 +45,7 @@
             <h2 class="h1 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.title }}</h2>
           {%- endif -%}
           {%- if section.settings.text != blank -%}
-            <div class="rte appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.text }}</div>
+            <div class="rte appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.text.value }}</div>
           {%- endif -%}
           {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}
             <a href="{{ section.settings.button_link }}" class="btn appear-delay{% cycle '','-1','-2','-3','-4' %}">
