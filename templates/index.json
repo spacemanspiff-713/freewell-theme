@@ -248,7 +248,7 @@
         "button_label": "watch video >",
         "button_link": "shopify:\/\/pages\/our_story",
         "image": "shopify:\/\/shop_images\/Untitled_design_10_13c40e11-5db0-4b47-aa80-87fb79f8239a.png",
-        "desktop_size": 20,
+        "desktop_size": -30,
         "color_border": "rgba(0,0,0,0)",
         "layout": "right",
         "lazyload_images": true
