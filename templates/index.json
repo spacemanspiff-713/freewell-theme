@@ -72,14 +72,14 @@
         "template--16137052684454__869737d2-d9f9-4df2-a3b0-4011de9e2dc0-1689447627205df878-0": {
           "type": "heading",
           "settings": {
-            "title": "Powerful Results"
+            "title": "<span class=\"raleway large-text\">Powerful Results<\/span>"
           }
         },
         "template--16137052684454__869737d2-d9f9-4df2-a3b0-4011de9e2dc0-1689447627205df878-1": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Designed for all hair textures and genders.<\/p>"
+            "text": "<p class=\"brand-gold\">Designed for all hair textures and genders.<\/p>"
           }
         },
         "722881fa-de27-4c4d-b8af-cd139d455295": {
