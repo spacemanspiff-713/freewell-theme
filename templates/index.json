@@ -413,8 +413,8 @@
       "custom_css": [
         ".text-with-icons__block.text-center {font-size: 1.5em;}",
         ".large-text {font-size: 6em !important;}",
-        ".subtext{display: flex; justify-content: space-between;}",
-        "span.font-small {font-size: 15px;}"
+        ".subtext {display: flex; justify-content: space-between;}",
+        "span.small-text {font-size: 15px;}"
       ],
       "settings": {
         "title": "<span class=\"brand-gold\">Join the Cause: <\/span><br>WE BELIEVE ALL CAN LIVE FREE + WELL",
