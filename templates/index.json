@@ -413,7 +413,7 @@
       "custom_css": [
         ".text-with-icons__block.text-center {font-size: 1.5em;}",
         ".large-text {font-size: 6em !important;}",
-        ".subtext {display: flex; justify-content: space-between;}",
+        ".subtext {display: flex; justify-content: space-around;}",
         "span.small-text {font-size: 15px;}"
       ],
       "settings": {
