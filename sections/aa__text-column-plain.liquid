@@ -29,6 +29,11 @@
           <div class="text-with-icons__block-text">
             {{ block.settings.text }}
           </div>
+          {% if block.settings.subtext != blank %}
+            <div class="subtext">
+              {{ block.settings.subtext }}
+            </div>
+          {% endif %}
           {% if block.settings.cta-text != blank %}
             <div class="text-with-icons__button">
         <a href="{{ block.settings.cta-link }}" class="btn btn--tertiary">
@@ -130,6 +135,11 @@
           "id": "text",
           "label": "t:common.text_with_icons.blocks.column.settings.text.label",
           "default": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.</p>"
+        },
+        {
+          "type": "html",
+          "id": "subtext",
+          "label": "Sub Text Content"
         },
         {
           "type": "html",

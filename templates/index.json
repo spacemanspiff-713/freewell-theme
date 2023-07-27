@@ -239,7 +239,8 @@
     "359fe034-490f-47b6-853c-2ef9c856b64c": {
       "type": "background-image-text",
       "custom_css": [
-        ".background-media-text__text {background: none; color: white;}"
+        ".background-media-text__text {background: none; color: white;}",
+        ".btn.appear-delay-2 {background: #d0cdcd; color: rgb(175, 157, 125); font-weight: bold;}"
       ],
       "settings": {
         "subtitle": "",
@@ -256,6 +257,7 @@
     },
     "a373eb76-fe7b-4afd-b868-0fd33781cfd3": {
       "type": "text-with-icons",
+      "disabled": true,
       "blocks": {
         "template--16137052684454__a373eb76-fe7b-4afd-b868-0fd33781cfd3-text_block-1": {
           "type": "text_block",
@@ -286,6 +288,56 @@
         "template--16137052684454__a373eb76-fe7b-4afd-b868-0fd33781cfd3-text_block-1",
         "template--16137052684454__a373eb76-fe7b-4afd-b868-0fd33781cfd3-text_block-2",
         "template--16137052684454__a373eb76-fe7b-4afd-b868-0fd33781cfd3-text_block-3"
+      ],
+      "settings": {
+        "title": "<span class=\"brand-gold\">The Reviews Are In<\/span>",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "read more >",
+        "button_link": "",
+        "alt": false
+      }
+    },
+    "f57b0b49-8d46-4eb9-86c2-3c4e15660f44": {
+      "type": "aa__text-column-plain",
+      "blocks": {
+        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "<span class=\"\"><strong>GREAT ON EVERY COUNT<\/strong><\/span>",
+            "text": "<p>I have course short-mid length hair. It tunes fizzy if is over 30% humidity. I live in Texas; humidity are us. It is dyed but always conditioned. This product not only tames my hair, but loves my scalp. I swim daily all summer, cannot wait to use under my cap. I will report back. I love this product and have tried many!!<\/p>",
+            "cta-text": "",
+            "cta-link": ""
+          }
+        },
+        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "<strong>GREAT PRODUCT<\/strong>",
+            "text": "<p>I LOVE this product. I've recommended it to many of my friends. My husband, seeing what it's doing to my hair, has now started using it himself--and he's not the type who takes readily to new products.<\/p>",
+            "cta-text": "",
+            "cta-link": ""
+          }
+        },
+        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "title": "<strong>SAVING MY HAIR<\/strong>",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.Due to reaction to new medication my hair started breaking and falling out. I went online and found this on Amazon. What a surprise to find something that works first time I used it, and it helps the more I use it.<\/p>",
+            "cta-text": "",
+            "cta-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-1",
+        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-2",
+        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-3"
+      ],
+      "custom_css": [
+        ".text-with-icons__blocks {margin-left: 0;}",
+        ".text-with-icons__blocks .text-with-icons__block {flex-direction: column-reverse; justify-content: space-between;}"
       ],
       "settings": {
         "title": "<span class=\"brand-gold\">The Reviews Are In<\/span>",
@@ -331,6 +383,46 @@
       "settings": {
         "option_galleries_id": "data-gallery_id=\"1\" data-widget=\"0\""
       }
+    },
+    "0d08f72b-a42a-4a90-8d3d-8d32cce3de02": {
+      "type": "aa__text-column-plain",
+      "blocks": {
+        "template--16144767746214__0d08f72b-a42a-4a90-8d3d-8d32cce3de02-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "<span class=\"brand-gold large-text raleway\"><strong>1%<\/strong><\/span>",
+            "text": "<p><strong>OF ALL REVENUE<\/strong><\/p>",
+            "cta-text": "",
+            "cta-link": ""
+          }
+        },
+        "template--16144767746214__0d08f72b-a42a-4a90-8d3d-8d32cce3de02-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "text": "<p>Is donated directly to organizations that help survivors of Human Trafficking, rebuild their lives. Our company also personally volunteers with our selected organizations. We currently donate to: <\/p>",
+            "cta-text": "",
+            "cta-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16144767746214__0d08f72b-a42a-4a90-8d3d-8d32cce3de02-text_block-1",
+        "template--16144767746214__0d08f72b-a42a-4a90-8d3d-8d32cce3de02-text_block-2"
+      ],
+      "custom_css": [
+        ".text-with-icons__block.text-center {font-size: 1.5em;}",
+        ".large-text {font-size: 6em !important;}"
+      ],
+      "settings": {
+        "title": "<span class=\"brand-gold\">Join the Cause: <\/span><br>WE BELIEVE ALL CAN LIVE FREE + WELL",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000",
+        "button_label": "",
+        "button_link": "",
+        "alt": true
+      }
     }
   },
   "order": [
@@ -344,7 +436,9 @@
     "e29041c3-198a-4e69-bf09-9af40bbe53ee",
     "359fe034-490f-47b6-853c-2ef9c856b64c",
     "a373eb76-fe7b-4afd-b868-0fd33781cfd3",
+    "f57b0b49-8d46-4eb9-86c2-3c4e15660f44",
     "cf5d06d6-b117-4e12-927d-ce937cc7c354",
-    "594ecb4a-793e-42d2-9101-aefa5d88203b"
+    "594ecb4a-793e-42d2-9101-aefa5d88203b",
+    "0d08f72b-a42a-4a90-8d3d-8d32cce3de02"
   ]
 }
