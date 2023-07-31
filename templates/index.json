@@ -23,6 +23,7 @@
           "settings": {
             "title": "<span class=\"brand-blue large-text\">Our philosophy<\/span>",
             "text": "",
+            "subtext": "",
             "cta-text": "",
             "cta-link": ""
           }
@@ -32,6 +33,7 @@
           "settings": {
             "title": "At FREEWELL, we believe you can have it all.",
             "text": "<p>We are committed to using clean and ethical ingredients that don't come at an expense  to your well-being or the planet.<\/p><p>We believe you shouldn't have to compromise your time to achieve healthy vibrant hair. We are dedicated to improving the way products are used, so they seamlessly integrate into your day, and help you navigate your self-care with less products in less time!<\/p>",
+            "subtext": "",
             "cta-text": "LEARN MORE",
             "cta-link": ""
           }
@@ -307,6 +309,7 @@
           "settings": {
             "title": "<span class=\"\"><strong>GREAT ON EVERY COUNT<\/strong><\/span>",
             "text": "<p>I have course short-mid length hair. It tunes fizzy if is over 30% humidity. I live in Texas; humidity are us. It is dyed but always conditioned. This product not only tames my hair, but loves my scalp. I swim daily all summer, cannot wait to use under my cap. I will report back. I love this product and have tried many!!<\/p>",
+            "subtext": "",
             "cta-text": "",
             "cta-link": ""
           }
@@ -316,6 +319,7 @@
           "settings": {
             "title": "<strong>GREAT PRODUCT<\/strong>",
             "text": "<p>I LOVE this product. I've recommended it to many of my friends. My husband, seeing what it's doing to my hair, has now started using it himself--and he's not the type who takes readily to new products.<\/p>",
+            "subtext": "",
             "cta-text": "",
             "cta-link": ""
           }
@@ -325,6 +329,7 @@
           "settings": {
             "title": "<strong>SAVING MY HAIR<\/strong>",
             "text": "<p>Due to reaction to new medication my hair started breaking and falling out. I went online and found this on Amazon. What a surprise to find something that works first time I used it, and it helps the more I use it.<\/p>",
+            "subtext": "",
             "cta-text": "",
             "cta-link": ""
           }
@@ -392,6 +397,7 @@
           "settings": {
             "title": "<span class=\"brand-gold large-text raleway\"><strong>1%<\/strong><\/span>",
             "text": "<p><strong>OF ALL REVENUE<\/strong><\/p>",
+            "subtext": "",
             "cta-text": "",
             "cta-link": ""
           }
@@ -400,7 +406,8 @@
           "type": "text_block",
           "settings": {
             "title": "",
-            "text": "<p>Is donated directly to organizations that help survivors of Human Trafficking, rebuild their lives. Our company also personally volunteers with our selected organizations. Learn about who we support: <br\/><br\/>BUTTONS BELOW<\/p>",
+            "text": "<p>Is donated directly to organizations that help survivors of Human Trafficking, rebuild their lives. Our company also personally volunteers with our selected organizations. Learn about who we support: <br\/><br\/><\/p>",
+            "subtext": "buttons",
             "cta-text": "",
             "cta-link": ""
           }
