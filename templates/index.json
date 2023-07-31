@@ -34,7 +34,7 @@
             "title": "At FREEWELL, we believe you can have it all.",
             "text": "<p>We are committed to using clean and ethical ingredients that don't come at an expense  to your well-being or the planet.<\/p><p>We believe you shouldn't have to compromise your time to achieve healthy vibrant hair. We are dedicated to improving the way products are used, so they seamlessly integrate into your day, and help you navigate your self-care with less products in less time!<\/p>",
             "subtext": "",
-            "cta-text": "LEARN MORE",
+            "cta-text": "LEARN MORE &gt;",
             "cta-link": ""
           }
         }
@@ -45,7 +45,7 @@
       ],
       "custom_css": [
         ".text-with-icons__blocks .text-with-icons__block {flex-direction: column; justify-content: center;}",
-        ".large-text{font-size:3.2em;}"
+        ".large-text {font-size: 3.2em;}"
       ],
       "settings": {
         "title": "",
