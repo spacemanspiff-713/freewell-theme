@@ -407,7 +407,7 @@
           "settings": {
             "title": "",
             "text": "<p>Is donated directly to organizations that help survivors of Human Trafficking, rebuild their lives. Our company also personally volunteers with our selected organizations. Learn about who we support: <br\/><br\/><\/p>",
-            "subtext": "buttons",
+            "subtext": "<span class=\"brand-gold\">Button<\/span><span class=\"brand-gold\">Button<\/span>",
             "cta-text": "",
             "cta-link": ""
           }
