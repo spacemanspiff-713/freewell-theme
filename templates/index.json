@@ -156,7 +156,7 @@
       "custom_css": [
         ".feature-row--50 .feature-row__images {flex: unset;}",
         ".feature-row-wrapper.feature-row--50 {margin: 0;}",
-        ".feature-row{margin: 0;}"
+        ".feature-row {margin: 0;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Boss_Gloss_Ocean_12x8_7d7a21cf-38a1-448c-9b39-8d015b3d71d2.jpg",
@@ -241,6 +241,9 @@
         "template--16137052684454__e29041c3-198a-4e69-bf09-9af40bbe53ee-logo_image-2",
         "template--16137052684454__e29041c3-198a-4e69-bf09-9af40bbe53ee-logo_image-4",
         "template--16137052684454__e29041c3-198a-4e69-bf09-9af40bbe53ee-logo_image-3"
+      ],
+      "custom_css": [
+        ".background-media-text__text {background: var(--colorBody); padding: 40px; text-align: center; width: 530px; height: 700px; display: flex; align-items: center; align-content: center; flex-direction: column; justify-content: center;}"
       ],
       "settings": {
         "title": "As Seen On",
