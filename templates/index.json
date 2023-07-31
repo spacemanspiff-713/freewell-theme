@@ -153,6 +153,9 @@
     },
     "66733e39-1d6e-40cb-b0ad-3594a8049aa5": {
       "type": "text-and-image",
+      "custom_css": [
+        ".feature-row--50 .feature-row__images {flex: unset;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Boss_Gloss_Ocean_12x8_7d7a21cf-38a1-448c-9b39-8d015b3d71d2.jpg",
         "image_mask": "portrait",
