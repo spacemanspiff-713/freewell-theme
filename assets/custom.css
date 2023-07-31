@@ -10,9 +10,9 @@
     font-size: 2em;
 }
 
-.arrow-after::after{
+/* .arrow-after::after{
     content:'➡️';
-}
+} */
 
 .raleway{
   font-family: 'Raleway';
@@ -31,9 +31,9 @@
     padding: 10px 30px;
   }
 
-  .hero__link.appear-delay-4  a::after {
+  /* .hero__link.appear-delay-4  a::after {
     content: '➡️';
-  }
+  } */
 
   .btn.btn--tertiary {
     color: rgb(29, 64, 79) !important;
