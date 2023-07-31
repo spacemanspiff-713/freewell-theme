@@ -44,7 +44,8 @@
         "template--16142744060070__5419341c-8449-473d-903e-63fe00c46477-text_block-2"
       ],
       "custom_css": [
-        ".text-with-icons__blocks .text-with-icons__block {flex-direction: column; justify-content: center;}"
+        ".text-with-icons__blocks .text-with-icons__block {flex-direction: column; justify-content: center;}",
+        ".large-text{font-size:3.2em;}"
       ],
       "settings": {
         "title": "",
