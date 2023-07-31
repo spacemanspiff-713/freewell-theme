@@ -63,7 +63,7 @@
         "h2 {text-align: left;}",
         ".rte {text-align: left;}",
         ".overflow-scroller {overflow: hidden; overflow-x: hidden;}",
-        "section-header__description--large appear-delay-1{margin: 0 ;}"
+        "section-header__description--large appear-delay-1 {margin: 0;}"
       ],
       "settings": {
         "title": "Get healthy hair + scalp now",
@@ -93,7 +93,7 @@
           "type": "button",
           "settings": {
             "link": "shopify:\/\/collections\/all-products",
-            "link_text": "SHOP NOW ➡️"
+            "link_text": "SHOP NOW &gt;"
           }
         }
       },
