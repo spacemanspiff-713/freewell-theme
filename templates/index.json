@@ -321,7 +321,7 @@
         "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-1": {
           "type": "text_block",
           "settings": {
-            "title": "<span class=\"\"><strong>GREAT ON EVERY COUNT<\/strong><\/span>",
+            "title": "<span class=\"\"><strong>GREAT ON EVERY COUNT<\/strong><\/span><br>",
             "text": "<p>I have course short-mid length hair. It tunes fizzy if is over 30% humidity. I live in Texas; humidity are us. It is dyed but always conditioned. This product not only tames my hair, but loves my scalp. I swim daily all summer, cannot wait to use under my cap. I will report back. I love this product and have tried many!!<\/p>",
             "subtext": "",
             "cta-text": "",
@@ -331,7 +331,7 @@
         "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-2": {
           "type": "text_block",
           "settings": {
-            "title": "<strong>GREAT PRODUCT<\/strong>",
+            "title": "<strong>GREAT PRODUCT<\/strong><br>",
             "text": "<p>I LOVE this product. I've recommended it to many of my friends. My husband, seeing what it's doing to my hair, has now started using it himself--and he's not the type who takes readily to new products.<\/p>",
             "subtext": "",
             "cta-text": "",
@@ -341,7 +341,7 @@
         "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-3": {
           "type": "text_block",
           "settings": {
-            "title": "<strong>SAVING MY HAIR<\/strong>",
+            "title": "<strong>SAVING MY HAIR<\/strong><br>",
             "text": "<p>Due to reaction to new medication my hair started breaking and falling out. I went online and found this on Amazon. What a surprise to find something that works first time I used it, and it helps the more I use it.<\/p>",
             "subtext": "",
             "cta-text": "",
