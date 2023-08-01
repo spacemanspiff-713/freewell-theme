@@ -43,3 +43,7 @@
 [data-live-text-setting="section.template--16142744060070__9571aedf-2654-4d57-ae13-02e8073a24a1.description"] {
   margin: 0;
 }
+
+[data-section-id="template--16142744060070__f57b0b49-8d46-4eb9-86c2-3c4e15660f44"] h3:after{
+  content: "⭐⭐⭐⭐⭐";
+}
