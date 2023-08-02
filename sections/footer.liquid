@@ -27,20 +27,7 @@
 <footer class="site-footer small--text-center" data-section-id="{{ section.id }}" data-section-type="footer-section">
 
   <div class="page-width">
-    {% for block in section.blocks %}
-      {% case block.type %}
-        {% when 'menu_block' %}
-        <div class="site-footer__section">
-            <ul class="no-bullets inline-list site-footer__linklist">
-              {%- for link in linklists[block.settings.menu_block].links -%}
-                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-              {%- endfor -%}
-            </ul>
-          </div>
-
-    {% endcase %}
-
-{% endfor %}
+   
     <div class="grid footer--item-top">
       <div class="grid__item small--one-whole medium-up--one-quarter">
         <div class="rte-settings">
