@@ -49,9 +49,10 @@
         <div class="rte-settings">
           {{ section.settings.text_richtext }}
         </div>
-      </div>
+      </div>  
+      {%- if linklists[section.settings.menu].links.size > 0 -%}
     <div class="grid__item small--one-whole medium-up--one-quarter">
-    {%- if linklists[section.settings.menu].links.size > 0 -%}
+  
       <div class="site-footer__section">
         <ul class="no-bullets inline-list site-footer__linklist">
           {%- for link in linklists[section.settings.menu].links -%}
@@ -59,8 +60,9 @@
           {%- endfor -%}
         </ul>
       </div>
-    {%- endif -%}
+
        </div>
+      {%- endif -%}
        {%- if linklists[section.settings.menu2].links.size > 0 -%}
        <div class="grid__item small--one-whole medium-up--one-quarter">
         
@@ -74,9 +76,9 @@
         
            </div>
          {%- endif -%}
-
-       <div class="grid__item small--one-whole medium-up--one-quarter">
         {%- if section.settings.show_newsletter -%}
+       <div class="grid__item small--one-whole medium-up--one-quarter">
+
           <div class="site-footer__section site-footer__section--newsletter" data-aos>
    
               {%- if section.settings.newsletter_title != blank -%}
@@ -94,7 +96,7 @@
               </div>
            
           </div>
-        {%- endif -%}
+
         {%- if section.settings.show_social_icons -%}
           <div class="site-footer__section">
             {%- render 'social-icons', social_class: 'footer__social' -%}
@@ -102,6 +104,7 @@
         {%- endif -%}
     
        </div>
+      {%- endif -%}
    </div>
 
    <div class="site-footer__section site-footer__copyright  text-left">
