@@ -255,8 +255,7 @@
       "type": "background-image-text",
       "custom_css": [
         ".background-media-text__text {background: none; color: white;}",
-        ".btn.appear-delay-2 {background: #d0cdcd; color: rgb(175, 157, 125); font-weight: bold;}",
-        ".background-media-text__text {width: 530px; height: 700px; display: flex; align-items: center; align-content: center; flex-direction: column; justify-content: center;}"
+        ".btn.appear-delay-2 {background: #d0cdcd; color: rgb(175, 157, 125); font-weight: bold;}"
       ],
       "settings": {
         "subtitle": "",
