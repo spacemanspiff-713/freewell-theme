@@ -407,9 +407,12 @@
     },
     "eff90e68-65a7-4f5b-b120-fab304d884a4": {
       "type": "new-ig-section",
+      "custom_css": [
+        ".large-text{font-size: 5em; padding-top:30px;}"
+      ],
       "settings": {
         "option_galleries_id": "data-gallery_id=\"1\" data-widget=\"0\"",
-        "heading": "<span class=\"large-text brand-gold\">Heading<\/span>"
+        "heading": "<span class=\"large-text brand-blue raleway\">Get Inspired<\/span>"
       }
     },
     "0d08f72b-a42a-4a90-8d3d-8d32cce3de02": {
