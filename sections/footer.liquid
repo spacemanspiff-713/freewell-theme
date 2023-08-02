@@ -30,6 +30,13 @@
     {% for block in section.blocks %}
       {% case block.type %}
         {% when 'menu_block' %}
+        <div class="site-footer__section">
+            <ul class="no-bullets inline-list site-footer__linklist">
+              {%- for link in linklists[block.settings.menu_block].links -%}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+              {%- endfor -%}
+            </ul>
+          </div>
 
     {% endcase %}
 
