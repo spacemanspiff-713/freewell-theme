@@ -1,1 +1,75 @@
-{"type":"footer","name":"t:sections.footer-group.name","sections":{"social":{"type":"social","disabled":true,"blocks":{"ddfce54b-f5a0-43a9-891d-2669862e2bd6":{"type":"post","settings":{"link":"","product":"","account":"","caption":"","likes":""}}},"block_order":["ddfce54b-f5a0-43a9-891d-2669862e2bd6"],"settings":{"enable_home":true,"enable_product":true,"enable_collection":false,"title":"On social","description":"<p>Send us yours <a href=\"https:\/\/instagram.com\/livefreewell.co\/\" title=\"https:\/\/instagram.com\/livefreewell.co\/\">@livefreewell.co<\/a><\/p>"}},"footer":{"type":"footer","custom_css":[],"settings":{"text_richtext":"<p>Let customers know about the key benefits of joining your newsletter.<\/p>","show_newsletter":false,"newsletter_title":"Join the club","newsletter_richtext":"","show_locale_selector":true,"show_currency_selector":true,"show_currency_flags":true,"show_social_icons":false,"menu":"footer-menu","menu2":"footer","show_payment_icons":false,"show_copyright":false,"copyright_text":""}}},"order":["social","footer"]}
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "social": {
+      "type": "social",
+      "disabled": true,
+      "blocks": {
+        "ddfce54b-f5a0-43a9-891d-2669862e2bd6": {
+          "type": "post",
+          "settings": {
+            "link": "",
+            "product": "",
+            "account": "",
+            "caption": "",
+            "likes": ""
+          }
+        }
+      },
+      "block_order": [
+        "ddfce54b-f5a0-43a9-891d-2669862e2bd6"
+      ],
+      "settings": {
+        "enable_home": true,
+        "enable_product": true,
+        "enable_collection": false,
+        "title": "On social",
+        "description": "<p>Send us yours <a href=\"https:\/\/instagram.com\/livefreewell.co\/\" title=\"https:\/\/instagram.com\/livefreewell.co\/\">@livefreewell.co<\/a><\/p>"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "ad7023ae-3b53-49e5-a527-97bcf8a295ae": {
+          "type": "menu_block",
+          "settings": {
+            "menu_block": "main-menu-july2023"
+          }
+        },
+        "90a0309d-628b-4d4b-9072-5a6e22e17007": {
+          "type": "menu_block",
+          "settings": {
+            "menu_block": "footer-menu"
+          }
+        }
+      },
+      "block_order": [
+        "ad7023ae-3b53-49e5-a527-97bcf8a295ae",
+        "90a0309d-628b-4d4b-9072-5a6e22e17007"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_richtext": "<p>Let customers know about the key benefits of joining your newsletter.<\/p>",
+        "show_newsletter": false,
+        "newsletter_title": "Join the club",
+        "newsletter_richtext": "",
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "show_currency_flags": true,
+        "show_social_icons": false,
+        "menu": "footer-menu",
+        "menu2": "footer",
+        "show_payment_icons": false,
+        "show_copyright": false,
+        "copyright_text": ""
+      }
+    }
+  },
+  "order": [
+    "social",
+    "footer"
+  ]
+}
