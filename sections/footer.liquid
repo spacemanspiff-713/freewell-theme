@@ -27,6 +27,13 @@
 <footer class="site-footer small--text-center" data-section-id="{{ section.id }}" data-section-type="footer-section">
 
   <div class="page-width">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when block.settings.text_block %}
+
+    {% endcase %}
+
+{% endfor %}
     <div class="grid footer--item-top">
       <div class="grid__item small--one-whole medium-up--one-quarter">
         <div class="rte-settings">
@@ -317,13 +324,13 @@
     ],
     "blocks":[
       {
-        "type":"text_block",
-        "name":"text_block",
+        "type":"menu_block",
+        "name":"menu_block",
         "settings":[
           {
             "type":"link_list",
-            "id":"text",
-            "label":"text"
+            "id":"menu_block",
+            "label":"Menu Block"
         }
         ]
         
