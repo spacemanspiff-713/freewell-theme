@@ -52,7 +52,7 @@
 
       ],
       "settings": {
-        "text_richtext": "<p>Let customers know about the key benefits of joining your newsletter.<\/p>",
+        "text_richtext": "",
         "show_newsletter": false,
         "newsletter_title": "Join the club",
         "newsletter_richtext": "",
