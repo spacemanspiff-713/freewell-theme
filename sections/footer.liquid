@@ -27,6 +27,8 @@
 <footer class="site-footer small--text-center" data-section-id="{{ section.id }}" data-section-type="footer-section">
 
   <div class="page-width">
+    <img class="footer-logo" src="{{ section.settings.footer-logo | image_url: 'master'}}" />
+    
    
     <div class="grid footer--item-top">
        {% for block in section.blocks %}
