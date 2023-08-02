@@ -31,6 +31,12 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "8c425fde-8b56-45dd-b4f8-b7e18d449ad7": {
+          "type": "sub-heading",
+          "settings": {
+            "sub-heading": "<p>Human Trafficking job rehabilitation program<\/p>"
+          }
+        },
         "ad7023ae-3b53-49e5-a527-97bcf8a295ae": {
           "type": "menu_block",
           "settings": {
@@ -45,6 +51,7 @@
         }
       },
       "block_order": [
+        "8c425fde-8b56-45dd-b4f8-b7e18d449ad7",
         "ad7023ae-3b53-49e5-a527-97bcf8a295ae",
         "90a0309d-628b-4d4b-9072-5a6e22e17007"
       ],
