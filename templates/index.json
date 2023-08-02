@@ -409,7 +409,7 @@
       "type": "new-ig-section",
       "settings": {
         "option_galleries_id": "data-gallery_id=\"1\" data-widget=\"0\"",
-        "heading": "Heading"
+        "heading": "<span class=\"large-text brand-gold\">Heading<\/span>"
       }
     },
     "0d08f72b-a42a-4a90-8d3d-8d32cce3de02": {
