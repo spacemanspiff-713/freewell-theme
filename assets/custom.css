@@ -74,3 +74,7 @@ h2.ssw-instagram-grid-title.ssw-instagram-title:after {
 footer.site-footer.small--text-center {
     color: #AF9D7D !important;
 }
+
+img.footer-logo {
+    margin-bottom: 30px;
+}
