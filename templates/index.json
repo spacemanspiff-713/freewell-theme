@@ -408,7 +408,8 @@
     "eff90e68-65a7-4f5b-b120-fab304d884a4": {
       "type": "new-ig-section",
       "custom_css": [
-        ".large-text{font-size: 5em; padding-top:30px;}"
+        ".large-text {font-size: 5em; padding-top: 30px;}",
+        "h2 {color: #AF9D7D;}"
       ],
       "settings": {
         "option_galleries_id": "data-gallery_id=\"1\" data-widget=\"0\"",
