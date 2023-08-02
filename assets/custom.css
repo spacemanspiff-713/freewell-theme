@@ -47,3 +47,7 @@
 [data-section-id="template--16142744060070__f57b0b49-8d46-4eb9-86c2-3c4e15660f44"] h3:after{
   content: "⭐⭐⭐⭐⭐";
 }
+
+h2.ssw-instagram-grid-title.ssw-instagram-title:after {
+  content: url("https://cdn.shopify.com/s/files/1/0581/8007/5686/files/1161953_instagram_icon_d5e3c3dc-5dc4-405c-8f14-d8c8528d39ad.svg?v=1690938035");
+}
