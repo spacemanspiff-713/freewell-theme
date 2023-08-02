@@ -60,8 +60,8 @@
         "show_currency_selector": true,
         "show_currency_flags": true,
         "show_social_icons": false,
-        "menu": "footer-menu",
-        "menu2": "footer",
+        "menu": "",
+        "menu2": "",
         "show_payment_icons": false,
         "show_copyright": false,
         "copyright_text": ""
