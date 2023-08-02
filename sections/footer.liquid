@@ -29,6 +29,22 @@
   <div class="page-width">
    
     <div class="grid footer--item-top">
+       {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'menu_block' %}
+        <div class="grid__item small--one-whole medium-up--one-quarter">
+        <div class="site-footer__section">
+            <ul class="no-bullets inline-list site-footer__linklist">
+              {%- for link in linklists[block.settings.menu_block].links -%}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        </div>
+
+    {% endcase %}
+
+{% endfor %}
       <div class="grid__item small--one-whole medium-up--one-quarter">
         <div class="rte-settings">
           {{ section.settings.text_richtext }}
@@ -45,8 +61,9 @@
       </div>
     {%- endif -%}
        </div>
+       {%- if linklists[section.settings.menu2].links.size > 0 -%}
        <div class="grid__item small--one-whole medium-up--one-quarter">
-        {%- if linklists[section.settings.menu2].links.size > 0 -%}
+        
           <div class="site-footer__section">
             <ul class="no-bullets inline-list site-footer__linklist">
               {%- for link in linklists[section.settings.menu2].links -%}
@@ -54,8 +71,9 @@
               {%- endfor -%}
             </ul>
           </div>
-        {%- endif -%}
+        
            </div>
+         {%- endif -%}
 
        <div class="grid__item small--one-whole medium-up--one-quarter">
         {%- if section.settings.show_newsletter -%}
