@@ -400,8 +400,16 @@
     },
     "594ecb4a-793e-42d2-9101-aefa5d88203b": {
       "type": "sswinstagram",
+      "disabled": true,
       "settings": {
         "option_galleries_id": "data-gallery_id=\"1\" data-widget=\"0\""
+      }
+    },
+    "eff90e68-65a7-4f5b-b120-fab304d884a4": {
+      "type": "new-ig-section",
+      "settings": {
+        "option_galleries_id": "data-gallery_id=\"1\" data-widget=\"0\"",
+        "heading": "Heading"
       }
     },
     "0d08f72b-a42a-4a90-8d3d-8d32cce3de02": {
@@ -463,6 +471,7 @@
     "f57b0b49-8d46-4eb9-86c2-3c4e15660f44",
     "cf5d06d6-b117-4e12-927d-ce937cc7c354",
     "594ecb4a-793e-42d2-9101-aefa5d88203b",
+    "eff90e68-65a7-4f5b-b120-fab304d884a4",
     "0d08f72b-a42a-4a90-8d3d-8d32cce3de02"
   ]
 }
