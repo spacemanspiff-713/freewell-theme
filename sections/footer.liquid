@@ -45,11 +45,13 @@
     {% endcase %}
 
 {% endfor %}
+{% if section.settings.text_richtext != blank %}
       <div class="grid__item small--one-whole medium-up--one-quarter">
         <div class="rte-settings">
           {{ section.settings.text_richtext }}
         </div>
       </div>  
+  {% endif %}
       {%- if linklists[section.settings.menu].links.size > 0 -%}
     <div class="grid__item small--one-whole medium-up--one-quarter">
   
