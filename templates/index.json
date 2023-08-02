@@ -409,7 +409,7 @@
       "type": "new-ig-section",
       "custom_css": [
         ".large-text {font-size: 5em; padding-top: 30px;}",
-        "h2 {color: #AF9D7D;}"
+        "h2 {color: #af9d7d;}"
       ],
       "settings": {
         "option_galleries_id": "data-gallery_id=\"1\" data-widget=\"0\"",
@@ -434,7 +434,7 @@
           "settings": {
             "title": "",
             "text": "<p>Is donated directly to organizations that help survivors of Human Trafficking, rebuild their lives. Our company also personally volunteers with our selected organizations. Learn about who we support: <br\/><br\/><\/p>",
-            "subtext": "<span class=\"brand-gold\">Button<\/span><span class=\"brand-gold\">Button<\/span>",
+            "subtext": "<a href=\"\"><span class=\"brand-gold\">Button<\/span><\/a><a href=\"\"><span class=\"brand-gold\">Button<\/span><\/a>",
             "cta-text": "",
             "cta-link": ""
           }
