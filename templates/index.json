@@ -67,7 +67,7 @@
       ],
       "settings": {
         "title": "Get healthy hair + scalp now",
-        "description": "Choose from out Top Sellers",
+        "description": "Get your Starter Bottle, Refill or Travel Kit",
         "home_featured_products": "featured-home",
         "per_row": "small",
         "alt": true
@@ -115,7 +115,7 @@
           "type": "image",
           "settings": {
             "title": "Power Gloss",
-            "title_size": 80,
+            "title_size": 61,
             "subheading": "Before and After",
             "link": "",
             "link_text": "",
