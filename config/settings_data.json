@@ -2,7 +2,7 @@
   "current": {
     "color_body_bg": "#ffffff",
     "color_body_text": "#1d404f",
-    "color_button": "#def4a9",
+    "color_button": "#af9d7d",
     "color_button_text": "#000000",
     "color_sale_price": "#009b2c",
     "color_sale_tag": "#af9d7d",
@@ -50,7 +50,7 @@
     "product_save_type": "percent",
     "enable_swatches": true,
     "enable_product_reviews": true,
-    "quick_shop_enable": true,
+    "quick_shop_enable": false,
     "quick_shop_style": "product",
     "product_image_size": "large",
     "product_image_type": "stacked",
