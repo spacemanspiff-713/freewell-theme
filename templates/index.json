@@ -5,7 +5,7 @@
       "settings": {
         "title": "Deep Condition Differently",
         "title_size": 60,
-        "subheading": "<span class=\"brand-gold\">Award Winning<\/span> clean hair + scalp treatment, you can do outside the shower",
+        "subheading": "<span class=\"brand-gold\">Award Winning<\/span> clean hair + scalp treatment, created for the busy + active human.",
         "link_text": "SHOP NOW >",
         "link": "shopify:\/\/collections",
         "color_accent": "#ffffff",
@@ -234,29 +234,22 @@
         "alt": false
       }
     },
-    "66733e39-1d6e-40cb-b0ad-3594a8049aa5": {
-      "type": "text-and-image",
+    "359fe034-490f-47b6-853c-2ef9c856b64c": {
+      "type": "background-image-text",
       "custom_css": [
-        ".feature-row--50 .feature-row__images {flex: unset;}",
-        ".feature-row-wrapper.feature-row--50 {margin: 0;}",
-        ".feature-row {margin: 0;}"
+        ".background-media-text__text {background: none; color: white;}",
+        ".btn.appear-delay-2 {background: #d0cdcd; color: rgb(175, 157, 125); font-weight: bold;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Green_and_White_Photographic_Blogger_Bio-Link_Website.png",
-        "image_mask": "none",
-        "image2_mask": "none",
         "subtitle": "",
-        "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "left",
-        "alt": true,
-        "top_padding": true,
-        "bottom_padding": true,
+        "title": "<span class=\"brand-gold\">FOUNDED WITH PURPOSE<\/span>",
+        "text": "<p>\"FREEWELL is a beautiful culmination of how you can make something amazing, and really positively impact the world while you do it.\"<\/p><p><strong><span class=\"brand-gold raleway\">FREEWELL FOUNDER, SHANDI NICHELLE<\/span><\/strong><\/p>",
+        "button_label": "watch video >",
+        "button_link": "shopify:\/\/pages\/our_story",
+        "image": "shopify:\/\/shop_images\/Untitled_design_10_377d5c1d-e4f5-4049-9f61-f2f4052cc29d.png",
+        "desktop_size": -10,
+        "color_border": "rgba(0,0,0,0)",
+        "layout": "right",
         "lazyload_images": true
       }
     },
@@ -332,25 +325,6 @@
         "title": "As Seen On",
         "logo_opacity": 76,
         "alt": true
-      }
-    },
-    "359fe034-490f-47b6-853c-2ef9c856b64c": {
-      "type": "background-image-text",
-      "custom_css": [
-        ".background-media-text__text {background: none; color: white;}",
-        ".btn.appear-delay-2 {background: #d0cdcd; color: rgb(175, 157, 125); font-weight: bold;}"
-      ],
-      "settings": {
-        "subtitle": "",
-        "title": "<span class=\"brand-gold\">FOUNDED WITH PURPOSE<\/span>",
-        "text": "<p>\"FREEWELL is a beautiful culmination of how you can make something amazing, and really positively impact the world while you do it.\"<\/p><p><strong><span class=\"brand-gold raleway\">FREEWELL FOUNDER, SHANDI NICHELLE<\/span><\/strong><\/p>",
-        "button_label": "watch video >",
-        "button_link": "shopify:\/\/pages\/our_story",
-        "image": "shopify:\/\/shop_images\/Untitled_design_10_377d5c1d-e4f5-4049-9f61-f2f4052cc29d.png",
-        "desktop_size": -20,
-        "color_border": "rgba(0,0,0,0)",
-        "layout": "right",
-        "lazyload_images": true
       }
     },
     "a373eb76-fe7b-4afd-b868-0fd33781cfd3": {
@@ -497,10 +471,9 @@
     "869737d2-d9f9-4df2-a3b0-4011de9e2dc0",
     "37138ade-6cfb-441e-a40e-35941b92bade",
     "f57b0b49-8d46-4eb9-86c2-3c4e15660f44",
-    "66733e39-1d6e-40cb-b0ad-3594a8049aa5",
+    "359fe034-490f-47b6-853c-2ef9c856b64c",
     "7f122be3-250d-445d-825e-05c63cde9fcf",
     "e29041c3-198a-4e69-bf09-9af40bbe53ee",
-    "359fe034-490f-47b6-853c-2ef9c856b64c",
     "a373eb76-fe7b-4afd-b868-0fd33781cfd3",
     "cf5d06d6-b117-4e12-927d-ce937cc7c354",
     "594ecb4a-793e-42d2-9101-aefa5d88203b",
