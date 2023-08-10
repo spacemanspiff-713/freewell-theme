@@ -21,7 +21,7 @@
         "template--16142744060070__5419341c-8449-473d-903e-63fe00c46477-text_block-1": {
           "type": "text_block",
           "settings": {
-            "title": "<span class=\"brand-blue large-text\">Our philosophy<\/span>",
+            "title": "LEAN + CLEAN",
             "text": "",
             "subtext": "",
             "cta-text": "",
@@ -108,60 +108,6 @@
         "alt": false
       }
     },
-    "f57b0b49-8d46-4eb9-86c2-3c4e15660f44": {
-      "type": "aa__text-column-plain",
-      "blocks": {
-        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-1": {
-          "type": "text_block",
-          "settings": {
-            "title": "<span class=\"\"><strong>GREAT ON EVERY COUNT<\/strong><\/span><br><br>",
-            "text": "<p>I have course short-mid length hair. It tunes fizzy if is over 30% humidity. I live in Texas; humidity are us. It is dyed but always conditioned. This product not only tames my hair, but loves my scalp. I swim daily all summer, cannot wait to use under my cap. I will report back. I love this product and have tried many!!<\/p>",
-            "subtext": "",
-            "cta-text": "",
-            "cta-link": ""
-          }
-        },
-        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-2": {
-          "type": "text_block",
-          "settings": {
-            "title": "<strong>GREAT PRODUCT<\/strong><br><br>",
-            "text": "<p>I LOVE this product. I've recommended it to many of my friends. My husband, seeing what it's doing to my hair, has now started using it himself--and he's not the type who takes readily to new products.<\/p>",
-            "subtext": "",
-            "cta-text": "",
-            "cta-link": ""
-          }
-        },
-        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-3": {
-          "type": "text_block",
-          "settings": {
-            "title": "<strong>SAVING MY HAIR<\/strong><br><br>",
-            "text": "<p>Due to reaction to new medication my hair started breaking and falling out. I went online and found this on Amazon. What a surprise to find something that works first time I used it, and it helps the more I use it.<\/p>",
-            "subtext": "",
-            "cta-text": "",
-            "cta-link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-1",
-        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-2",
-        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-3"
-      ],
-      "custom_css": [
-        ".text-with-icons__blocks {margin-left: 0;}",
-        ".text-with-icons__blocks .text-with-icons__block {flex-direction: column-reverse; justify-content: space-between;}",
-        ".text-with-icons__blocks {display: flex; flex-wrap: wrap; justify-content: center; margin: 0px;}"
-      ],
-      "settings": {
-        "title": "<span class=\"brand-gold\">The Reviews Are In<\/span>",
-        "align_text": "center",
-        "desktop_columns_per_row": 3,
-        "icon_color": "#000000",
-        "button_label": "read more >",
-        "button_link": "",
-        "alt": false
-      }
-    },
     "37138ade-6cfb-441e-a40e-35941b92bade": {
       "type": "slideshow",
       "blocks": {
@@ -229,6 +175,60 @@
         "top_padding": true,
         "bottom_padding": true,
         "lazyload_images": true
+      }
+    },
+    "f57b0b49-8d46-4eb9-86c2-3c4e15660f44": {
+      "type": "aa__text-column-plain",
+      "blocks": {
+        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "<span class=\"\"><strong>GREAT ON EVERY COUNT<\/strong><\/span><br><br>",
+            "text": "<p>I have course short-mid length hair. It tunes fizzy if is over 30% humidity. I live in Texas; humidity are us. It is dyed but always conditioned. This product not only tames my hair, but loves my scalp. I swim daily all summer, cannot wait to use under my cap. I will report back. I love this product and have tried many!!<\/p>",
+            "subtext": "",
+            "cta-text": "",
+            "cta-link": ""
+          }
+        },
+        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "<strong>GREAT PRODUCT<\/strong><br><br>",
+            "text": "<p>I LOVE this product. I've recommended it to many of my friends. My husband, seeing what it's doing to my hair, has now started using it himself--and he's not the type who takes readily to new products.<\/p>",
+            "subtext": "",
+            "cta-text": "",
+            "cta-link": ""
+          }
+        },
+        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "title": "<strong>SAVING MY HAIR<\/strong><br><br>",
+            "text": "<p>Due to reaction to new medication my hair started breaking and falling out. I went online and found this on Amazon. What a surprise to find something that works first time I used it, and it helps the more I use it.<\/p>",
+            "subtext": "",
+            "cta-text": "",
+            "cta-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-1",
+        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-2",
+        "template--16144767746214__f57b0b49-8d46-4eb9-86c2-3c4e15660f44-text_block-3"
+      ],
+      "custom_css": [
+        ".text-with-icons__blocks {margin-left: 0;}",
+        ".text-with-icons__blocks .text-with-icons__block {flex-direction: column-reverse; justify-content: space-between;}",
+        ".text-with-icons__blocks {display: flex; flex-wrap: wrap; justify-content: center; margin: 0px;}"
+      ],
+      "settings": {
+        "title": "<span class=\"brand-gold\">The Reviews Are In<\/span>",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "read more >",
+        "button_link": "",
+        "alt": false
       }
     },
     "7f122be3-250d-445d-825e-05c63cde9fcf": {
@@ -465,9 +465,9 @@
     "5419341c-8449-473d-903e-63fe00c46477",
     "9571aedf-2654-4d57-ae13-02e8073a24a1",
     "869737d2-d9f9-4df2-a3b0-4011de9e2dc0",
-    "f57b0b49-8d46-4eb9-86c2-3c4e15660f44",
     "37138ade-6cfb-441e-a40e-35941b92bade",
     "66733e39-1d6e-40cb-b0ad-3594a8049aa5",
+    "f57b0b49-8d46-4eb9-86c2-3c4e15660f44",
     "7f122be3-250d-445d-825e-05c63cde9fcf",
     "e29041c3-198a-4e69-bf09-9af40bbe53ee",
     "359fe034-490f-47b6-853c-2ef9c856b64c",
