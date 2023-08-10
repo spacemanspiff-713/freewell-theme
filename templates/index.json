@@ -57,6 +57,35 @@
         "alt": false
       }
     },
+    "35193f92-5250-4c64-ae22-8b20511c0592": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16142744060070__35193f92-5250-4c64-ae22-8b20511c0592-image-1": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 57,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "color_accent": "#1d404f",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/Green_and_White_Photographic_Blogger_Bio-Link_Website.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--16142744060070__35193f92-5250-4c64-ae22-8b20511c0592-image-1"
+      ],
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "lazyload_images": true
+      }
+    },
     "9571aedf-2654-4d57-ae13-02e8073a24a1": {
       "type": "featured-collection-slider",
       "custom_css": [
@@ -151,32 +180,6 @@
         "lazyload_images": true
       }
     },
-    "66733e39-1d6e-40cb-b0ad-3594a8049aa5": {
-      "type": "text-and-image",
-      "custom_css": [
-        ".feature-row--50 .feature-row__images {flex: unset;}",
-        ".feature-row-wrapper.feature-row--50 {margin: 0;}",
-        ".feature-row {margin: 0;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/nathan-dumlao-0tykfPL2U7w-unsplash_1.jpg",
-        "image_mask": "portrait",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "<span class=\"large-text raleway\">Lean + Clean<\/span>",
-        "text": "<span class=\"brand-gold large-text raleway\">Power in Ethical Minimalism<\/span><p class=\"raleway\">We source only the cleanest, purest sustainably farmed ingredients because we know less is more: no fillers, preservatives, sulfates, chemicals, artificial scents, or toxins. These are standard practices in our book. We take it one step further in keeping our formulas simple and powerful to let the ingredients really shine.<\/p><\/p><span class=\"brand-gold large-text raleway\">Sustainability on a whole new level.<\/span><\/p><p class=\"raleway\">One bottle for life is our motto. We will be launching<br\/>our refill system in 2023 and have a full line of<br\/>personal care performance products in R&D.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "left",
-        "alt": true,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
     "f57b0b49-8d46-4eb9-86c2-3c4e15660f44": {
       "type": "aa__text-column-plain",
       "blocks": {
@@ -229,6 +232,32 @@
         "button_label": "read more >",
         "button_link": "",
         "alt": false
+      }
+    },
+    "66733e39-1d6e-40cb-b0ad-3594a8049aa5": {
+      "type": "text-and-image",
+      "custom_css": [
+        ".feature-row--50 .feature-row__images {flex: unset;}",
+        ".feature-row-wrapper.feature-row--50 {margin: 0;}",
+        ".feature-row {margin: 0;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Green_and_White_Photographic_Blogger_Bio-Link_Website.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "alt": true,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     },
     "7f122be3-250d-445d-825e-05c63cde9fcf": {
@@ -463,11 +492,12 @@
   "order": [
     "hero-video",
     "5419341c-8449-473d-903e-63fe00c46477",
+    "35193f92-5250-4c64-ae22-8b20511c0592",
     "9571aedf-2654-4d57-ae13-02e8073a24a1",
     "869737d2-d9f9-4df2-a3b0-4011de9e2dc0",
     "37138ade-6cfb-441e-a40e-35941b92bade",
-    "66733e39-1d6e-40cb-b0ad-3594a8049aa5",
     "f57b0b49-8d46-4eb9-86c2-3c4e15660f44",
+    "66733e39-1d6e-40cb-b0ad-3594a8049aa5",
     "7f122be3-250d-445d-825e-05c63cde9fcf",
     "e29041c3-198a-4e69-bf09-9af40bbe53ee",
     "359fe034-490f-47b6-853c-2ef9c856b64c",
